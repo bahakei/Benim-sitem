@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ROYAL</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #090909;
+    color: white;
+}
+
+header {
+    background: #120000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #b30000;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e00000;
+}
+
+.bakiye {
+    background: #1b1b1b;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px 40px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    margin: 0;
+    color: #e00000;
+}
+
+.hero p {
+    color: #aaa;
+    font-size: 18px;
+}
+
+.oyunlar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.oyun {
+    background: #151515;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.oyun:hover {
+    transform: translateY(-7px);
+    border-color: #e00000;
+}
+
+.ikon {
+    font-size: 55px;
+}
+
+.oyun h2 {
+    margin: 15px 0;
+}
+
+button {
+    background: #c00000;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    padding: 50px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">♛ ROYAL</div>
+
+    <div class="bakiye">
+        💰 Sanal Bakiye: 10.000
+    </div>
+</header>
+
+<section class="hero">
+    <h1>ROYAL</h1>
+    <p>Kraliyet salonuna hoş geldin 👑</p>
+</section>
+
+<section class="oyunlar">
+
+    <div class="oyun">
+        <div class="ikon">🎰</div>
+        <h2>Slot</h2>
+        <button>Oyna</button>
+    </div>
+
+    <div class="oyun">
+        <div class="ikon">🎡</div>
+        <h2>Rulet</h2>
+        <button>Oyna</button>
+    </div>
+
+    <div class="oyun">
+        <div class="ikon">🃏</div>
+        <h2>Blackjack</h2>
+        <button>Oyna</button>
+    </div>
+
+</section>
+
+<footer>
+    ROYAL © 2026 — Demo
+</footer>
+
+</body>
+</html>
